@@ -1,0 +1,102 @@
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: black;
+    color: #E7E9EA;
+    padding: 0 8px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+}
+.nav-header{
+    height: 100vh;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 259px;
+    height: 50.25px;
+    text-decoration: none;
+    color: #E7E9EA;
+}
+.nav-text{
+    padding: 12px;
+    font-size: 20px;
+}
+.button-div{
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+/*.nav-button:hover{
+
+}*/
+.nav-img{
+    filter: invert(97%) sepia(0%) saturate(7487%) hue-rotate(77deg) brightness(110%) contrast(100%);
+    width: 40px;
+}
+.nav-logo{
+    height: 60px;
+    width: 60px;
+}
+.nav-container{
+
+}
+.nav-tweet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d9bf0;
+    border-radius: 999px;
+    height: 3rem;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    margin: 4px 0;
+}
+.user-img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.nav-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 259px;
+    padding: 12px;
+}
+.user-div{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+}
+.user-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 12px;
+}
+.username-name{
+    display: flex;
+    
+    font-size: 15px;
+    color: #E7E9EA;
+}
+.username-at{
+    font-size: 15px;
+    color:#71767B;
+}

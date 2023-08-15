@@ -1,0 +1,7 @@
+@import url(reset.css);
+@import url(nav.css);
+
+#app{
+    background-color: black;
+    color: white;
+}
